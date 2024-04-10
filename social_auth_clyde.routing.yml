@@ -1,0 +1,7 @@
+social_auth_clyde.settings_form:
+  path: 'admin/config/social-api/social-auth/clyde'
+  defaults:
+    _title: 'Clyde user authentication'
+    _form: '\Drupal\social_auth_clyde\Form\ClydeAuthSettingsForm'
+  requirements:
+    _permission: 'administer social api authentication'

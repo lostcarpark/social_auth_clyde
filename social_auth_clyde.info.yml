@@ -1,0 +1,7 @@
+name: 'Social Auth Clyde'
+type: module
+description: 'Plugin for social_auth for connecting with Clyde.'
+package: Social
+core_version_requirement: ^10 || ^11
+dependencies:
+  - social_auth:social_auth
